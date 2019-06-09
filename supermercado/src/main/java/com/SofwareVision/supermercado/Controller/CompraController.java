@@ -28,7 +28,8 @@ public class CompraController {
 	
 	@Autowired
 	private CompraRepository unaCompra;
-
+	
+	//http://localhost:9090/api/super
 	@GetMapping
 	public List<Stock> lista() {
 
